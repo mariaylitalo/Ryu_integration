@@ -7,7 +7,7 @@ This repository includes two pre-installed VM's with Ubuntu Servers 14.04. With 
 
 Snort VM includes installation of Snort, Snorby (MySQL database), Barnyard2, Pigrelay and Mininet.
 
-Ryu VM includes only installation of Ryu. With application of ryu/app/snort.py you can demonstrate integration of Ryu controller and Snort.
+Ryu VM includes only installation of Ryu. With application of ryu/ryu/app/snort.py you can demonstrate integration of Ryu controller and Snort.
 
 ## Credentials
 
@@ -42,7 +42,7 @@ Exmaple command which creates simple topology with two OF-switches and two Hosts
 sudo mn --topo linear,2 --switch ovsk,protocols=OpenFlow13 --controller remote,ip="Controller IP-address",port=6633
 ```
 
-You need to modify the pigrelay.py application (/etc/snort/pigrelay/pigrelay.py) with correct IP-address of Ryu-controller and ryu/app/snort.py application with Snorby's IP address (Snort Machine's IP address)
+You need to modify the pigrelay.py application (/etc/snort/pigrelay/pigrelay.py) with correct IP-address of Ryu-controller. Also modify the IP-addresses used in ryu/app/snort.py application (Snorby database and FTP server, use Snort machines IP-address)
 
 ## Test run
 
