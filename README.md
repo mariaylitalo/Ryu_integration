@@ -3,7 +3,7 @@ Integration of Ryu Controller and Snort Intrusion Prevention System
 
 ## Pre-installed Virtual Machines
 
-This repository includes two pre-installed VM's with Ubuntu Servers 14.04. With these two machines you are able to test integration of Ryu controller and Snort intrusion prevention system. The application which is run on Ryu VM is still under development and contains plenty of bugs.
+This repository includes two pre-build VM's with Ubuntu Servers 14.04. With these two machines you are able to test integration of Ryu controller and Snort intrusion prevention system. The application which is run on Ryu VM is still under development and contains plenty of bugs.
 
 Snort VM includes installation of Snort, Snorby (MySQL database), Barnyard2, Pigrelay and Mininet.
 
@@ -35,6 +35,9 @@ passwd: ubunturyu
 ## Installation
 
 Virtual machines are ready to run. You can create test network with Mininet tool installed on Snort machine. 
+
+**NOTE!!** 
+If you have trouble with network connections make sure that interfaces names are correct (May have changed during convertion).
 
 Exmaple command which creates simple topology with two OF-switches and two Hosts:
 
