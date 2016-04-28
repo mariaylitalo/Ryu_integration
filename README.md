@@ -41,7 +41,7 @@ passwd: ubunturyu
 Virtual machines are ready to run. You can create test network with Mininet tool installed on Snort machine. 
 
 **NOTE!!** 
-If you have trouble with network connections make sure that interfaces names are correct (May have changed during convertion).
+If you have trouble with network connections make sure that interface names are correct (May have changed because of the change of environment). Assign correct interface names in file /etc/networking/interfaces. You can find out correct names with command ifconfig -a. 
 
 Exmaple command which creates simple topology with two OF-switches and two Hosts:
 
@@ -53,7 +53,7 @@ You need to modify the pigrelay.py application (/etc/snort/pigrelay/pigrelay.py)
 
 ## Test run
 
-Start snort.py applicaion on Ryu VM
+Start snort.py applicaion (On Ryu machine)
 
 ```
 cd ryu/ryu/app
