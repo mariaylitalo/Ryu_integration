@@ -7,7 +7,11 @@ This repository includes two pre-build VM's with Ubuntu Servers 14.04. With thes
 
 Snort VM includes installation of Snort, Snorby (MySQL database), Barnyard2, Pigrelay and Mininet.
 
+You can download Snort machine from [Here](https://www.idrive.com/idrive/sh/sh?k=k1l4u8h9u1) (.rar-file)
+
 Ryu VM includes only installation of Ryu. With application of ryu/ryu/app/snort.py you can demonstrate integration of Ryu controller and Snort.
+
+You can download Ryu machine from [Here](https://www.idrive.com/idrive/sh/sh?k=n8q9v4n7v9) (.rar-file)
 
 ## Credentials
 
