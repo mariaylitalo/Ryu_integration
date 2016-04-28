@@ -1,7 +1,7 @@
 # Ryu integration
 Integration of Ryu Controller and Snort Intrusion Prevention System
 
-## Pre-installed Virtual Machines
+## Pre-build Virtual Machines
 
 This repository includes two pre-build VM's with Ubuntu Servers 14.04. With these two machines you are able to test integration of Ryu controller and Snort intrusion prevention system. The application which is run on Ryu VM is still under development and contains plenty of bugs.
 
